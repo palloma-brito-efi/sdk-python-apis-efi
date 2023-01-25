@@ -7,7 +7,6 @@ efi = EfiPay(credentials.CREDENTIALS)
 
 params = {
     'txid': '',
-    'splitConfigId': ''
 }
 
 response =  efi.pix_split_unlink_charge(params=params)
