@@ -6,8 +6,7 @@ from ....credentials import credentials
 efi = EfiPay(credentials.CREDENTIALS)
 
 params = {
-    'txid': '',
-    'splitConfigId': ''
+    'txid': ''
 }
 
 response =  efi.pix_split_unlink_due_charge(params=params)
